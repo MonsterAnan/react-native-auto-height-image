@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Animated, Image, ImageBackground } from 'react-native';
+import { Animated, ImageBackground } from 'react-native';
+import Image from 'react-native-fast-image2'
 
 function AnimatableImage(props) {
   const { animated, children, ...rest } = props;
